@@ -32,7 +32,19 @@
   margin: 5%;
 }
 
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
 #label {
   font-size: 4em;
-  text-align: center;
+  /* text-align: center; */
+}
+
+#row-label {
+  font-size: 4em;
+  /* text-align: center; */
 }

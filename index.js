@@ -6,7 +6,7 @@ window.onload = function() {
   let numberOfBoxes = this.document.querySelector('#number-of-boxes')
   let label = this.document.querySelector('#label')
   let button, option, box
-  let boxes = 9
+  let boxes = 3
   let options = 16
   
 
