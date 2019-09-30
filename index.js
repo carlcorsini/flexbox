@@ -3,12 +3,11 @@ window.onload = function() {
   .dropdown();
   let main = document.querySelector('#main');
   let buttonContainer = document.querySelector('#button-container');
-  let numberOfBoxes = this.document.querySelector('#number-of-boxes')
-  let label = this.document.querySelector('#label')
+  let numberOfBoxes = document.querySelector('#number-of-boxes')
+  let label = document.querySelector('#label')
   let button, option, box
   let boxes = 3
   let options = 16
-  
 
   for (let i = 1; i <= boxes; i++) {
     option = document.createElement
