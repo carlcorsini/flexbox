@@ -1,0 +1,38 @@
+#main {
+  /* declare display property as flex */
+  display: flex;
+  /* set direction of elements to row */
+  flex-direction: row;
+  /* this one adds a wrap around which gives some responsivity */
+  flex-flow: row wrap;
+  /* When a button is clicked, the following property is changed: */
+  justify-content: flex-start;
+  /* gives 5% space around this content */
+  margin: 5%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: aliceblue;
+  border: 2px solid seagreen;
+}
+
+/* This is the styling for the button and label containers, disregard */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+
+#label {
+  font-size: 4em;
+  text-align: center;
+}
