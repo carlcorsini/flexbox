@@ -35,7 +35,7 @@ window.onload = function() {
 
   for (let i = 0; i < justify.length; i++) {
     button = document.createElement('button');
-    button.classList.add('ui', 'basic', 'button', 'massive');
+    button.classList.add('ui', 'basic', 'button', 'huge');
     button.id = justify[i];
     button.addEventListener('click', justifyContent);
     button.innerHTML = justify[i];
