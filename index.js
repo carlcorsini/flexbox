@@ -1,11 +1,11 @@
 window.onload = function() {
+  $('.ui.dropdown')
+  .dropdown();
+
   console.log('Thanks for looking at my Flexbox Demo :)');
   console.log('Check out my unorganized GitHub for more random stuff:');
   console.log('https://github.com/carlcorsini');
-  
 
-  $('.ui.dropdown')
-  .dropdown();
   let main = document.querySelector('#main');
   let buttonContainer = document.querySelector('#button-container');
   let numberOfBoxes = document.querySelector('#number-of-boxes')
