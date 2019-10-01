@@ -1,4 +1,9 @@
 window.onload = function() {
+  console.log('thanks for looking at my flexbox :)');
+  console.log('Check out my unorganized GitHub for more random stuff:');
+  console.log('https://github.com/carlcorsini');
+  
+
   $('.ui.dropdown')
   .dropdown();
   let main = document.querySelector('#main');
