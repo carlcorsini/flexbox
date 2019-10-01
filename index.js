@@ -1,5 +1,5 @@
 window.onload = function() {
-  console.log('thanks for looking at my flexbox :)');
+  console.log('Thanks for looking at my Flexbox Demo :)');
   console.log('Check out my unorganized GitHub for more random stuff:');
   console.log('https://github.com/carlcorsini');
   
